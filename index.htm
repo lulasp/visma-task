@@ -4,6 +4,37 @@
    <script src="js/main.js"></script> 
 </head>
     <body>
-        <div class="main">First commit</div>
+        <div class="faq-container">
+            <h1 class="faq-title">Frequently asked questions</h1>
+            <p class="faq-subtitle">Have questions? We are here to help</p>
+            <form class="faq-search">
+                <input type="text" placeholder="Search here...">
+                <button type="submit">
+                    Submit
+                  <i class="fas fa-search"></i>
+                </button>
+            </form>
+            <div class="faq-accordion">
+              <div class="faq-item">
+                <h3 class="faq-question">What is the FAQ component?</h3>
+                <div class="faq-answer">
+                  <p>The FAQ component is an accordion style component that displays question and answer pairs. The initial state of the question is closed, and when the user clicks on the question, the answer is revealed.</p>
+                </div>
+              </div>
+              <div class="faq-item">
+                <h3 class="faq-question">How does the component work?</h3>
+                <div class="faq-answer">
+                  <p>The component works by using JavaScript to toggle the visibility of the answer when the user clicks on the question. The component is designed to be accessible and responsive to different screen sizes.</p>
+                </div>
+              </div>
+              <div class="faq-item">
+                <h3 class="faq-question">Is the component accessible?</h3>
+                <div class="faq-answer">
+                  <p>Yes, the component is designed to be accessible and meet the accessibility guidelines.</p>
+                </div>
+              </div>
+              <!-- Add more questions and answers as needed -->
+            </div>
+        </div>
     </body>
 </html>
