@@ -74,6 +74,14 @@
 	margin: 0 auto;
 }
 
+.faq-question__wrapper {
+	display: flex;
+	flex-direction: row;
+	align-content: center;
+	align-items: center;
+	justify-content: space-between;
+}
+
 .faq-item {
 	border-bottom: 1px solid #D6D6D6;
 }
@@ -96,5 +104,9 @@
 	line-height: 27px;
 	color: #141414;
 	padding-right: 88px;
+
+	overflow: hidden;
+	max-height: 0;
+	transition: max-height 0.3s ease-out;
 }
 
