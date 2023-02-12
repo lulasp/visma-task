@@ -1,5 +1,9 @@
-<html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Frequently asked questions - about our product and services">
+  <title>Frequently Asked Questions - Visma Assignment</title>
   <link rel="stylesheet" href="css/style.css">
 	<link href="https://fonts.googleapis.com/css2?family=Inter&family=Petrona:wght@700&display=swap" rel="stylesheet">
 </head>
@@ -9,8 +13,9 @@
                 <h1 class="faq-title">Frequently asked questions</h1>
                 <p class="faq-subtitle">Have questions? We are here to help</p>
 								<div class="search-container">
-									<input type="text" placeholder="Search here..." class="search-input">
-									<button class="search-icon">
+                  <label for="search" class="hidden">Search FAQs</label>
+									<input type="text" class="search-input" placeholder="Search here..." aria-label="Search FAQs">
+									<button class="search-icon" aria-label="Submit search">
                     <object data="assets/icons/search.svg" width="24" height="25"> </object>
 									</button>
 								</div>

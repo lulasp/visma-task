@@ -50,6 +50,10 @@
 	max-width: 928px;
 }
 
+.faq-heading .hidden {
+	display: none;
+}
+
 .search-input {
   width: 100%;
 	border: 0;
