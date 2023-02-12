@@ -1,2 +1,2 @@
 # visma-task
-Front-end developer Task
+Front-end Developer Assignement by Luís Serpa Pinto
